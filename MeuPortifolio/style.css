@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #0d1a2d;
+    color: white;
+  }
+  
+  .navbar {
+    position: relative;
+    left: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    color: #ccc;
+  }
+  
+  .nav-links a:hover {
+    color: #F0039E;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    margin-top: 10px;
+  }
+
+  .hero p {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    color: #ccc;
+  }
+  
+  .hero-text h1 {
+    font-size: 50px;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .hero-text h2 {
+    font-size: 30px;
+    color: #ccc;
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .social-icons {
+    margin: 25px 10px;
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+    color: #F0039E;
+    
+  }
+
+  .about {
+    background-color: #F06FB1;
+    color: #113740;
+    padding: 10px 20px;
+    margin: 185px;
+    position: absolute;
+    bottom: -35px; 
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    background: #d81092;
+    box-shadow: 0 0 20px #dd48a9, 0 0 40px #F0039E;
+    
+  }
+  
+  .about:hover {
+    background-color: #F06FB1;
+  }
+
+  hero-img {
+    position: relative;
+  }
+  
+  .avatar {
+    padding: 30px;
+    border-radius: 50%;
+    background: #d81092;
+    box-shadow: 0 0 20px #d8259a, 0 0 50px #F0039E;
+  }
+  
+  .avatar img {
+    width: 335px;
+    border-radius: 50%;
+  }
+  
